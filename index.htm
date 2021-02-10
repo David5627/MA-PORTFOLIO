@@ -1,0 +1,208 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Amiri|Cormorant+Garamond|Nanum+Myeongjo|Philosopher|Rancho|Source+Serif+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.easypiechart.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+ 
+
+    <div class="navbar navbar-expand-md sticky-top">
+      <span class="navbar-text">DAVID KILONZO</span>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Start of intro section -->
+    <div class="introduction-section" id="aboutme">
+      <h2 class="title">Welcome</h2>
+      <p>My names is <span id="myName">DAVID KILONZO</span><br> More information about me can be found below.</p>
+
+      <div class="row intro-section-2">
+        <div class="col-md-6 ">
+          <h3 class="title">Education</h3>
+          <div class="row">
+            <p class="col-md-7"><strong><i>Primary school:</i></strong> Star Of Hope primary school<br> Years: 2002 - 2015<br></p>
+            <br>
+            <p class="col-md-5"><stron><i>Secondary school: </i></stron> Aic Zion High School<br> Years: 2016-2019<br></p>
+            <br>
+          </div>
+          <br>
+         
+
+        </div>
+        <div class="col-md-6 intro-section-3">
+          <h3 class="title">Hobbies & Interests</h3>
+          <div class="row" style>
+            <ul class="col-md-6 hobbies">
+            <li>Coding</li>
+              <li>Travelling</li>
+             
+            </ul>
+           
+            <ul class="col-md-6 hobbies">
+            
+                <li>Watching</li>
+                <li>Story Telling</li>
+              </ul>
+
+
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- End of intro section -->
+    <!-- Beginning of skill section-->
+    <div class="skill-section" id="skills">
+      <h3 class="title">Skills & Strengths</h3>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="html_lvl" data-percent="80">80%</div>
+            <h4>Html</h4>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="js_lvl" data-percent="50">50%</div>
+            <h4>Javascript</h4>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="css_lvl" data-percent="60">60%</div>
+            <h4>Css</h4>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="bootstrap_lvl" data-percent="70">70%</div>
+            <h4>Boostrap</h4>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="bootstrap_lvl" data-percent="70">50%</div>
+            <h4>Angular</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="bootstrap_lvl" data-percent="70">80%</div>
+            <h4>Python</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="bootstrap_lvl" data-percent="70">70%</div>
+            <h4>PythonFlask</h4>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="box">
+            <div class="chart" id="bootstrap_lvl" data-percent="70">70%</div>
+            <h4>PythonDjango</h4>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- End of skill section -->
+    <!-- Beginning of project section-->
+    <div class="project-section" id="projects">
+      <h3 class="title">Projects</h3>
+      <p id="descr">Below are some  few  projects that I've worked on over time</p>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="card">
+            <h4 class="card-title proj1">Github search</h4>
+            <h6 class="card-subtitle">Allow one to search all github users and their repos</h6>
+            <div class="card-body proj1Body">
+              <p class="card-text">Allow user to search github users and their repositorie.Technology used:Angular,Html and Css</p>
+              <a href="https://david5627.github.io/MY-Github-Search/ class="btn btn-primary">View site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="card">
+            <h4 class="card-title proj2">Awwards</h4>
+            <h6 class="card-subtitle"></h6>
+            <div class="card-body proj2Body">
+              <p class="card-text">This is a project Called Awward visit it.Technology used:Python Django,Html And Css</p>
+              <a href="https://davawwards.herokuapp.com/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="card">
+            <h4 class="card-title proj3">Netflix Clone</h4>
+            <h6 class="card-subtitle"></h6>
+            <div class="card-body proj3Body">
+              <p class="card-text">Allow users to watch movie trailers.Technology used PythonDjango</p>
+               <a href="https://davenetflix.herokuapp.com/" class="btn btn-primary">View Project</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="card">
+            <h4 class="card-title proj4">News Updates</h4>
+            <h6 class="card-subtitle"></h6>
+            <div class="card-body proj4Body">
+              <p class="card-text">Allow users to view News Updates</p>
+               <a href="https://habare.herokuapp.com/" class="btn btn-primary">View Project</a>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- End of project section-->
+    <!--Contact Me Section-->
+    <div class="contact-me">
+      <h3 class="title">Contacts</h3>
+      <ul>
+          <li>
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+              <li>
+                <li><a href="https://www.linkedin.com/feed/" /><i class="fab fa-linkedin"></i></a>
+                  <li>
+      </ul>
+    </div>
+    <!--End of Contact Me Section-->
+  </div>
+
+</body>
+
+</html>

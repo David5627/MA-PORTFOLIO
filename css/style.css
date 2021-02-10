@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Philosopher";
+  background: black;
+}
+
+body p{
+  font-size: 18px;
+}
+
+hr {
+  background: rgb(163, 163, 163, 0.1);
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*navbar*/
+.navbar {
+  background: #5debe0;
+  text-align: right;
+}
+
+.navbar-text {
+  font-size: 20px;
+  margin-left: 1em;
+}
+.nav-item a{
+  margin-left: 10px;
+  font-size: 18px;
+  color: #0B0C10;
+}
+.nav-item a:hover{
+  background: rgba(11, 12, 17, 0.91);
+  border-radius: 2px;
+  color: #D2D5D7;
+}
+
+ .navbar a.active{
+  background: #0B0C10;
+  border-radius: 2px;
+  color: #D2D5D7;
+}
+/*end of navbar*/
+
+/* Intoduction Section */
+.introduction-section {
+  margin: 0;
+  padding: 2em;
+  background: #0B0C10;
+  color: #D2D5D7;
+  text-align: center;
+
+}
+
+#myName {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #66FCF1;
+}
+
+.introduction-section ul li{
+  list-style: none;
+  padding: 1px;
+}
+
+.intro-section-3 {
+  border-left: 0.5px solid rgb(163, 163, 163, 0.2);
+}
+/* End of Intoduction Section */
+
+/* Skills Section */
+.skill-section {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #D2D5D7;
+  background: #0B0C10;
+}
+
+.box .chart{
+  position: relative;
+  margin: 2em auto;
+  padding: 1em 0 3.2em 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 110px;
+  width: 190px;
+  height: 100px;
+  font-family: "Rancho"
+}
+.box canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box h4{
+  margin: 0;
+  padding: 0 0 2em 0;
+}
+/* End of Section */
+
+/* Project Section*/
+.project-section {
+  margin: 0;
+  padding: 10px;
+  background: #0B0C10;
+}
+.project-section h3{
+  margin: 15px 0 5px 0;
+  text-align: center;
+}
+.project-section #descr{
+  margin: 0 0 30px 0;
+  text-align: center;
+  color: #D2D5D7
+}
+.project-section .card {
+  margin: 0 auto 3em auto;
+  padding: 0 0 2em 0;
+  width: 23rem;
+  border-radius: 2px;
+  background: #edeaea;
+}
+
+.card-title {
+  text-align: center;
+}
+.card-subtitle {
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 5px;
+}
+.card-body .btn{
+  width: 50%;
+  margin-left: 90px;
+  background: rgb(12, 136, 250);
+  color: white;
+}
+
+.card-body .btn:hover{
+  background: rgb(12, 58, 250);
+  color: white;
+}
+
+.card-title:hover{
+  transition: 0.5s;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.proj1Body, .proj2Body, .proj3Body, .proj4Body {
+  display: none;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px #66FCF1;
+}
+
+@media only screen and (max-width:1200px ){
+  .project-section .card {
+    margin: 0 auto 3em auto;
+    padding: 0 0 2em 0;
+    width: 13em;
+    border-radius: 2px;
+    background: #edeaea;
+  }
+  .card-body .btn{
+    width: 100%;
+    margin-left: 0px;
+    background: rgb(12, 136, 250);
+    color: white;
+  }
+}
+
+@media only screen and (max-width:950px ){
+  .project-section .card {
+    margin: 0 auto 3em auto;
+    padding: 0 0 2em 0;
+    width: 10em;
+    border-radius: 2px;
+    background: #edeaea;
+  }
+
+  .card-body .btn{
+    width: 100%;
+    margin-left: 0px;
+    background: rgb(12, 136, 250);
+    color: white;
+  }
+
+}
+@media only screen and (max-width:575px ){
+  .project-section .card {
+    margin: 0 auto 3em auto;
+    padding: 0 0 2em 0;
+    width: 23em;
+    border-radius: 2px;
+    background: #edeaea;
+  }
+
+}
+/* End of skills section*/
+
+/*Contact Section*/
+.contact-me {
+  margin: 0;
+  padding: 20px;
+  background: #0B0C10;
+  text-align: center;
+}
+.contact-me li{
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+  margin: 10px 0 0 10px;
+
+}
+.contact-me li a{
+  font-size: 50px;
+}
+
+.contact-me .fa-google-plus{
+  color:  #d34836;
+}
+.contact-me .fa-facebook-square{
+  color:  #3B5998;
+}
+.contact-me .fa-linkedin{
+  color:  #0077B5;
+}
+/* End of Contact Section*/
